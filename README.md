@@ -1,30 +1,57 @@
-# my-ai-learning-app
+# My AI Learning App
 
-这是一个 AI 学习平台项目。
+A modern AI learning website built with Next.js 15, TypeScript, Tailwind CSS, and the App Router.
 
-## 项目目标
+## Features
 
-我想做一个用于展示深度学习案例的 Web 应用，帮助用户学习 PyTorch、TensorFlow 和 OpenCV 的基础案例。
+- Responsive landing page with the heading **My AI Learning App** and welcome message
+- Shared navigation bar with Home, Courses, Chat, and About links
+- Dedicated Courses, Chat, and About routes
+- Interactive demo chat that displays user messages and a demo AI response
+- Type-safe development with TypeScript
+- Styling with Tailwind CSS
 
-## 第一版功能
+## Project structure
 
-1. 首页：展示项目标题和简介
-2. 课程列表页：展示不同学习模块
-3. 课程详情页：展示课程介绍、代码示例和学习说明
-4. 支持的模块：
-   - PyTorch 实战
-   - TensorFlow 实战
-   - OpenCV 实战
-5. 暂时不需要登录
-6. 暂时不需要数据库，数据可以先写在本地 JSON 文件中
+```text
+app/
+├── about/page.tsx       # About page
+├── chat/page.tsx        # Interactive demo chat page
+├── courses/page.tsx     # Courses page
+├── globals.css          # Global styles and Tailwind directives
+├── layout.tsx           # Root layout and shared navigation
+└── page.tsx             # Home page
+components/
+└── navbar.tsx           # Shared navigation bar
+public/                  # Static assets
+```
 
-## 技术要求
+## Getting started
 
-请使用 React 创建前端应用。
+Install dependencies:
 
-## 开发要求
+```bash
+npm install
+```
 
-1. 先创建一个最小可运行版本
-2. 页面简洁清楚
-3. 代码结构适合新手学习
-4. 添加 README 说明如何启动项目
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Available scripts
+
+- `npm run dev` — start the development server
+- `npm run build` — create a production build
+- `npm run start` — run the production server
+- `npm run lint` — run ESLint
+
+## Technology stack
+
+- [Next.js 15](https://nextjs.org/)
+- [React 19](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
