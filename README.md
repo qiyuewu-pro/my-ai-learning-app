@@ -5,9 +5,9 @@ A modern AI learning website built with Next.js 15, TypeScript, Tailwind CSS, an
 ## Features
 
 - Responsive landing page with the heading **My AI Learning App** and welcome message
-- Shared navigation bar with Home, Courses, Chat, and About links
-- Dedicated Courses, Chat, and About routes
-- Interactive demo chat that displays user messages and a demo AI response
+- Shared navigation bar with Home, Courses, and About links
+- Dedicated Courses and About routes
+- Interactive `/chat` page that displays user messages and a demo AI response
 - Type-safe development with TypeScript
 - Styling with Tailwind CSS
 
